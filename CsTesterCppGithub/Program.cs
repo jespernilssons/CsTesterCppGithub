@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace CsTesterCppGithub
 {
     class Program
     {
-        private static string saveDir = "C:/Users/Jesper/Documents/Visual Studio 2015/Projects/CSTesterCpp/CppIterationReport.txt";
+        
+        static string saveDir = "..\\CppIterationReport.txt";
         private static string newLine = "\r\n";
         private static Random rnd = new Random();
         private static int iterations = rnd.Next(2, 10);
